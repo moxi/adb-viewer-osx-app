@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C77AB31B1C8B89580094CD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AB31A1C8B89580094CD5B /* AppDelegate.swift */; };
+		C77AB31D1C8B89580094CD5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AB31C1C8B89580094CD5B /* ViewController.swift */; };
+		C77AB31F1C8B89580094CD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77AB31E1C8B89580094CD5B /* Assets.xcassets */; };
+		C77AB3221C8B89580094CD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77AB3201C8B89580094CD5B /* Main.storyboard */; };
+		C77AB32D1C8B89580094CD5B /* adb_viewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AB32C1C8B89580094CD5B /* adb_viewerTests.swift */; };
+		C77AB3381C8B89580094CD5B /* adb_viewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AB3371C8B89580094CD5B /* adb_viewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77AB3291C8B89580094CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77AB30F1C8B89580094CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77AB3161C8B89580094CD5B;
+			remoteInfo = "adb-viewer";
+		};
+		C77AB3341C8B89580094CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77AB30F1C8B89580094CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77AB3161C8B89580094CD5B;
+			remoteInfo = "adb-viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C77AB3171C8B89580094CD5B /* adb-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adb-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77AB31A1C8B89580094CD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77AB31C1C8B89580094CD5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C77AB31E1C8B89580094CD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77AB3211C8B89580094CD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77AB3231C8B89580094CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77AB3281C8B89580094CD5B /* adb-viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adb-viewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77AB32C1C8B89580094CD5B /* adb_viewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adb_viewerTests.swift; sourceTree = "<group>"; };
+		C77AB32E1C8B89580094CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77AB3331C8B89580094CD5B /* adb-viewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adb-viewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77AB3371C8B89580094CD5B /* adb_viewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adb_viewerUITests.swift; sourceTree = "<group>"; };
+		C77AB3391C8B89580094CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77AB3141C8B89580094CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB3251C8B89580094CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB3301C8B89580094CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77AB30E1C8B89580094CD5B = {
+			isa = PBXGroup;
+			children = (
+				C77AB3191C8B89580094CD5B /* adb-viewer */,
+				C77AB32B1C8B89580094CD5B /* adb-viewerTests */,
+				C77AB3361C8B89580094CD5B /* adb-viewerUITests */,
+				C77AB3181C8B89580094CD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77AB3181C8B89580094CD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77AB3171C8B89580094CD5B /* adb-viewer.app */,
+				C77AB3281C8B89580094CD5B /* adb-viewerTests.xctest */,
+				C77AB3331C8B89580094CD5B /* adb-viewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77AB3191C8B89580094CD5B /* adb-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				C77AB31A1C8B89580094CD5B /* AppDelegate.swift */,
+				C77AB31C1C8B89580094CD5B /* ViewController.swift */,
+				C77AB31E1C8B89580094CD5B /* Assets.xcassets */,
+				C77AB3201C8B89580094CD5B /* Main.storyboard */,
+				C77AB3231C8B89580094CD5B /* Info.plist */,
+			);
+			path = "adb-viewer";
+			sourceTree = "<group>";
+		};
+		C77AB32B1C8B89580094CD5B /* adb-viewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C77AB32C1C8B89580094CD5B /* adb_viewerTests.swift */,
+				C77AB32E1C8B89580094CD5B /* Info.plist */,
+			);
+			path = "adb-viewerTests";
+			sourceTree = "<group>";
+		};
+		C77AB3361C8B89580094CD5B /* adb-viewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C77AB3371C8B89580094CD5B /* adb_viewerUITests.swift */,
+				C77AB3391C8B89580094CD5B /* Info.plist */,
+			);
+			path = "adb-viewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77AB3161C8B89580094CD5B /* adb-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77AB33C1C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewer" */;
+			buildPhases = (
+				C77AB3131C8B89580094CD5B /* Sources */,
+				C77AB3141C8B89580094CD5B /* Frameworks */,
+				C77AB3151C8B89580094CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adb-viewer";
+			productName = "adb-viewer";
+			productReference = C77AB3171C8B89580094CD5B /* adb-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C77AB3271C8B89580094CD5B /* adb-viewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77AB33F1C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerTests" */;
+			buildPhases = (
+				C77AB3241C8B89580094CD5B /* Sources */,
+				C77AB3251C8B89580094CD5B /* Frameworks */,
+				C77AB3261C8B89580094CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77AB32A1C8B89580094CD5B /* PBXTargetDependency */,
+			);
+			name = "adb-viewerTests";
+			productName = "adb-viewerTests";
+			productReference = C77AB3281C8B89580094CD5B /* adb-viewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C77AB3321C8B89580094CD5B /* adb-viewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77AB3421C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerUITests" */;
+			buildPhases = (
+				C77AB32F1C8B89580094CD5B /* Sources */,
+				C77AB3301C8B89580094CD5B /* Frameworks */,
+				C77AB3311C8B89580094CD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77AB3351C8B89580094CD5B /* PBXTargetDependency */,
+			);
+			name = "adb-viewerUITests";
+			productName = "adb-viewerUITests";
+			productReference = C77AB3331C8B89580094CD5B /* adb-viewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77AB30F1C8B89580094CD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rcgonzalezf;
+				TargetAttributes = {
+					C77AB3161C8B89580094CD5B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C77AB3271C8B89580094CD5B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C77AB3161C8B89580094CD5B;
+					};
+					C77AB3321C8B89580094CD5B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C77AB3161C8B89580094CD5B;
+					};
+				};
+			};
+			buildConfigurationList = C77AB3121C8B89580094CD5B /* Build configuration list for PBXProject "adb-viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77AB30E1C8B89580094CD5B;
+			productRefGroup = C77AB3181C8B89580094CD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77AB3161C8B89580094CD5B /* adb-viewer */,
+				C77AB3271C8B89580094CD5B /* adb-viewerTests */,
+				C77AB3321C8B89580094CD5B /* adb-viewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77AB3151C8B89580094CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77AB31F1C8B89580094CD5B /* Assets.xcassets in Resources */,
+				C77AB3221C8B89580094CD5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB3261C8B89580094CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB3311C8B89580094CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77AB3131C8B89580094CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77AB31D1C8B89580094CD5B /* ViewController.swift in Sources */,
+				C77AB31B1C8B89580094CD5B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB3241C8B89580094CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77AB32D1C8B89580094CD5B /* adb_viewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AB32F1C8B89580094CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77AB3381C8B89580094CD5B /* adb_viewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77AB32A1C8B89580094CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77AB3161C8B89580094CD5B /* adb-viewer */;
+			targetProxy = C77AB3291C8B89580094CD5B /* PBXContainerItemProxy */;
+		};
+		C77AB3351C8B89580094CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77AB3161C8B89580094CD5B /* adb-viewer */;
+			targetProxy = C77AB3341C8B89580094CD5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C77AB3201C8B89580094CD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77AB3211C8B89580094CD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77AB33A1C8B89580094CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77AB33B1C8B89580094CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C77AB33D1C8B89580094CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C77AB33E1C8B89580094CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C77AB3401C8B89580094CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adb-viewer.app/Contents/MacOS/adb-viewer";
+			};
+			name = Debug;
+		};
+		C77AB3411C8B89580094CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adb-viewer.app/Contents/MacOS/adb-viewer";
+			};
+			name = Release;
+		};
+		C77AB3431C8B89580094CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "adb-viewer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C77AB3441C8B89580094CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "adb-viewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "adb-viewer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77AB3121C8B89580094CD5B /* Build configuration list for PBXProject "adb-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77AB33A1C8B89580094CD5B /* Debug */,
+				C77AB33B1C8B89580094CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77AB33C1C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77AB33D1C8B89580094CD5B /* Debug */,
+				C77AB33E1C8B89580094CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C77AB33F1C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77AB3401C8B89580094CD5B /* Debug */,
+				C77AB3411C8B89580094CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C77AB3421C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77AB3431C8B89580094CD5B /* Debug */,
+				C77AB3441C8B89580094CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77AB30F1C8B89580094CD5B /* Project object */;
+}
