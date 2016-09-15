@@ -190,13 +190,16 @@
 				TargetAttributes = {
 					C77AB3161C8B89580094CD5B = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					C77AB3271C8B89580094CD5B = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = C77AB3161C8B89580094CD5B;
 					};
 					C77AB3321C8B89580094CD5B = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = C77AB3161C8B89580094CD5B;
 					};
 				};
@@ -390,6 +393,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -403,6 +407,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -415,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adb-viewer.app/Contents/MacOS/adb-viewer";
 			};
 			name = Debug;
@@ -428,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adb-viewer.app/Contents/MacOS/adb-viewer";
 			};
 			name = Release;
@@ -440,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "adb-viewer";
 				USES_XCTRUNNER = YES;
 			};
@@ -453,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rcgonzalezf.adb-viewerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "adb-viewer";
 				USES_XCTRUNNER = YES;
 			};
@@ -477,6 +486,7 @@
 				C77AB33E1C8B89580094CD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C77AB33F1C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +495,7 @@
 				C77AB3411C8B89580094CD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C77AB3421C8B89580094CD5B /* Build configuration list for PBXNativeTarget "adb-viewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +504,7 @@
 				C77AB3441C8B89580094CD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

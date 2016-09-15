@@ -13,8 +13,8 @@ class ViewController: NSViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		let task: NSTask = NSTask()
-		let pipe: NSPipe = NSPipe()
+		let task: Process = Process()
+		let pipe: Pipe = Pipe()
 
 		task.launchPath = "/usr/local/bin/adb"
 		task.arguments = ["devices"]
@@ -23,8 +23,8 @@ class ViewController: NSViewController {
 
 		let handle = pipe.fileHandleForReading
 		let data = handle.readDataToEndOfFile()
-        let result_s = NSString(data: data, encoding: NSUTF8StringEncoding)
-        result_s?.capitalizedString
+        let result_s = NSString(data: data, encoding: String.Encoding.utf8.rawValue)
+        result_s?.capitalized
         // Do any additional setup after loading the view.
 	}
 
